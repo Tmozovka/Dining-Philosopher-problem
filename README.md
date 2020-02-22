@@ -21,8 +21,8 @@ The waiter is responsible for dinner. He opens a restaurant and waits for philos
 
 1) A philosopher wants to eat and he asks for permission from the monitor(waiter)
 2) Waiter checks if both neighbors of the philosopher are not eating
-    2.1) yes -> allow to eat. His neighbors must wait if they want to eat
-    2.2) no -> wait
+    ⋅⋅1. yes -> allow to eat. His neighbors must wait if they want to eat
+    ⋅⋅2. no -> wait
 
 The solution is created with the help of condition variables and locks, that are implicit in the waiter-monitor
 
